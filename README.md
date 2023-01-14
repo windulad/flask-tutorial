@@ -1,2 +1,2 @@
-# flutter-tutorial
-Basic applications from freecodecamp flutter tutorial
+# flaskr-tutorial
+Basic applications from freecodecamp flask tutorial
