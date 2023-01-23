@@ -13,7 +13,7 @@
             <th>Added</th>
             <th>Actions</th>
         </tr>
-        {{% for task in tasks %}}
+        {% for task in tasks %}
             <tr>
                 <td>{{ task.content }}</td>
                 <td>{{ task.date_created.date() }}</td>
@@ -23,7 +23,7 @@
                     <a href="">Update</a>
                 </td>
             </tr>
-        {{% endfor %}}
+        {% endfor %}
     </table>
     <form action="/" method="POST">
         <input type="text" name="context" id="content">
